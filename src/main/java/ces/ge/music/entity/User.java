@@ -3,28 +3,42 @@ package ces.ge.music.entity;
 import java.sql.Timestamp;
 
 public class User {
-    private int id;
-    private String nickName;
+
+    private String userId;
+    private String userName;
     private String phone;
     private String password;
     private String avator;
-    private int gender;
-    private Timestamp birthday;
+    private String token;
+    private char gender;
 
-    public int getId() {
-        return id;
+    public User() {
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public User(String userId, String userName, String phone, String password, String avator, String token, char gender) {
+        this.userId = userId;
+        this.userName = userName;
+        this.phone = phone;
+        this.password = password;
+        this.avator = avator;
+        this.token = token;
+        this.gender = gender;
     }
 
-    public String getNickName() {
-        return nickName;
+    public String getUserId() {
+        return userId;
     }
 
-    public void setNickName(String nickName) {
-        this.nickName = nickName;
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     public String getPhone() {
@@ -51,32 +65,32 @@ public class User {
         this.avator = avator;
     }
 
-    public int getGender() {
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+
+    public char getGender() {
         return gender;
     }
 
-    public void setGender(int gender) {
+    public void setGender(char gender) {
         this.gender = gender;
-    }
-
-    public Timestamp getBirthday() {
-        return birthday;
-    }
-
-    public void setBirthday(Timestamp birthday) {
-        this.birthday = birthday;
     }
 
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
-                ", nickName='" + nickName + '\'' +
+                "userId='" + userId + '\'' +
+                ", userName='" + userName + '\'' +
                 ", phone='" + phone + '\'' +
                 ", password='" + password + '\'' +
                 ", avator='" + avator + '\'' +
+                ", token='" + token + '\'' +
                 ", gender=" + gender +
-                ", birthday=" + birthday +
                 '}';
     }
 }
