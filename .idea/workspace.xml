@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="090813d9-fe1a-4646-a935-773a0d3079c3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ces/ge/music/utils/ResponseHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ge_music_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ces/ge/music/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/ces/ge/music/controller/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ces/ge/music/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/ces/ge/music/entity/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ces/ge/music/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/ces/ge/music/mapper/UserMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ces/ge/music/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/ces/ge/music/service/UserService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/static/mapper/UserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ces/ge/music/config/SwaggerConfig.class" afterPath="$PROJECT_DIR$/target/classes/ces/ge/music/config/SwaggerConfig.class" />
+      <change beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ces/ge/music/GeMusicApplication.class" afterPath="$PROJECT_DIR$/target/classes/ces/ge/music/GeMusicApplication.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/ces/ge/music/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/ces/ge/music/controller/UserController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/ces/ge/music/entity/User.class" afterPath="$PROJECT_DIR$/target/classes/ces/ge/music/entity/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ces/ge/music/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/target/classes/ces/ge/music/mapper/UserMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ces/ge/music/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/ces/ge/music/service/UserService.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,8 +58,18 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="115">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ces/ge/music/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="321">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1046#1047#0" expanded="true" />
@@ -89,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ces/ge/music/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+            <state relative-caret-position="478">
+              <caret line="94" column="1" lean-forward="false" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -102,8 +112,8 @@
       <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" column="85" lean-forward="false" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
+            <state relative-caret-position="386">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <marker date="1556194395284" expanded="true" signature="295:363" ph="SELECT * FRO... user" />
                 <marker date="1556194395284" expanded="true" signature="460:503" ph="SELECT * FRO... user" />
@@ -111,6 +121,19 @@
                 <marker date="1556194395284" expanded="true" signature="681:760" ph="INSERT INTO user... " />
                 <marker date="1556194395284" expanded="true" signature="853:894" ph="SELECT * FRO... user" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="46">
+                <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="59" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -139,18 +162,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/ces/ge/music/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/static/mapper/UserMapper.xml.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/ces/ge/music/GeMusicApplication.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/ces/ge/music/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/ces/ge/music/utils/ResponseHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/ces/ge/music/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ces/ge/music/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ces/ge/music/service/UserService.java" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -166,6 +189,22 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ge-music" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ge-music" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
@@ -222,28 +261,7 @@
             <path>
               <item name="ge-music" type="b2602c69:ProjectViewProjectNode" />
               <item name="ge-music" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ge-music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ge-music" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ge-music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ge-music" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ge-music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ge-music" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="music" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -267,6 +285,13 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="ge-music" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -393,12 +418,12 @@
       <workItem from="1555470535520" duration="8316000" />
       <workItem from="1555902419161" duration="3614000" />
       <workItem from="1555996794882" duration="1593000" />
-      <workItem from="1555998475095" duration="14997000" />
+      <workItem from="1555998475095" duration="23314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45033000" />
+    <option name="totallyTimeSpent" value="53350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,7 +440,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -432,7 +457,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3505618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27567238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -551,14 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="55" column="18" lean-forward="false" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ces/ge/music/GeMusicApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -594,54 +611,35 @@
         <state relative-caret-position="801">
           <caret line="84" column="18" lean-forward="false" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
           <folding>
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1223#1224#0" expanded="true" />
-            <element signature="e#1256#1257#0" expanded="true" />
-            <element signature="e#1285#1286#0" expanded="true" />
-            <element signature="e#1329#1330#0" expanded="true" />
-            <element signature="e#1365#1366#0" expanded="true" />
-            <element signature="e#1397#1398#0" expanded="true" />
-            <element signature="e#1425#1426#0" expanded="true" />
-            <element signature="e#1467#1468#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
-            <element signature="e#1532#1533#0" expanded="true" />
-            <element signature="e#1561#1562#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="false" />
+            <element signature="e#699#700#0" expanded="false" />
+            <element signature="e#743#744#0" expanded="false" />
+            <element signature="e#779#780#0" expanded="false" />
+            <element signature="e#814#815#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#893#894#0" expanded="false" />
+            <element signature="e#933#934#0" expanded="false" />
+            <element signature="e#965#966#0" expanded="false" />
+            <element signature="e#993#994#0" expanded="false" />
+            <element signature="e#1035#1036#0" expanded="false" />
+            <element signature="e#1069#1070#0" expanded="false" />
+            <element signature="e#1104#1105#0" expanded="false" />
+            <element signature="e#1135#1136#0" expanded="false" />
+            <element signature="e#1183#1184#0" expanded="false" />
+            <element signature="e#1223#1224#0" expanded="false" />
+            <element signature="e#1256#1257#0" expanded="false" />
+            <element signature="e#1285#1286#0" expanded="false" />
+            <element signature="e#1329#1330#0" expanded="false" />
+            <element signature="e#1365#1366#0" expanded="false" />
+            <element signature="e#1397#1398#0" expanded="false" />
+            <element signature="e#1425#1426#0" expanded="false" />
+            <element signature="e#1467#1468#0" expanded="false" />
+            <element signature="e#1501#1502#0" expanded="false" />
+            <element signature="e#1532#1533#0" expanded="false" />
+            <element signature="e#1561#1562#0" expanded="false" />
+            <element signature="e#1603#1604#0" expanded="false" />
+            <element signature="e#1639#1640#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="46">
-            <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="57" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -658,7 +656,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ces/ge/music/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1046#1047#0" expanded="true" />
@@ -667,20 +665,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/mapper/UserMapper.xml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ces/ge/music/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="85" lean-forward="false" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
-          <folding>
-            <marker date="1556194395284" expanded="true" signature="295:363" ph="SELECT * FRO... user" />
-            <marker date="1556194395284" expanded="true" signature="460:503" ph="SELECT * FRO... user" />
-            <marker date="1556194395284" expanded="true" signature="567:628" ph="UPDATE user... " />
-            <marker date="1556194395284" expanded="true" signature="681:760" ph="INSERT INTO user... " />
-            <marker date="1556194395284" expanded="true" signature="853:894" ph="SELECT * FRO... user" />
-          </folding>
+        <state relative-caret-position="478">
+          <caret line="94" column="1" lean-forward="false" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -692,13 +681,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ces/ge/music/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/mapper/UserMapper.xml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+        <state relative-caret-position="386">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <marker date="1556194395284" expanded="true" signature="295:363" ph="SELECT * FRO... user" />
+            <marker date="1556194395284" expanded="true" signature="460:503" ph="SELECT * FRO... user" />
+            <marker date="1556194395284" expanded="true" signature="567:628" ph="UPDATE user... " />
+            <marker date="1556194395284" expanded="true" signature="681:760" ph="INSERT INTO user... " />
+            <marker date="1556194395284" expanded="true" signature="853:894" ph="SELECT * FRO... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="46">
+            <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="59" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ge-music:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ge-music</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
