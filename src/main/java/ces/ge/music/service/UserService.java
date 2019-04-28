@@ -29,7 +29,7 @@ public class UserService {
         if (user != null) {
             responseHelper.success().setMessage("登录成功").setData(user);
         }else {
-            responseHelper.success().setMessage("用户名或密码错误");
+            responseHelper.fail().setMessage("用户名或密码错误");
         }
         return responseHelper;
     }
@@ -45,7 +45,7 @@ public class UserService {
         if (user !=null) {
             responseHelper.success().setMessage("登录成功").setData(user);
         }else {
-            responseHelper.success().setMessage("用户名或密码错误");
+            responseHelper.fail().setMessage("用户名或密码错误");
         }
         return responseHelper;
     }
@@ -62,7 +62,7 @@ public class UserService {
         if (result > 0){
             responseHelper.success().setMessage("密码修改成功");
         }else {
-            responseHelper.success().setMessage("密码修改失败");
+            responseHelper.fail().setMessage("密码修改失败");
         }
         return responseHelper;
     }

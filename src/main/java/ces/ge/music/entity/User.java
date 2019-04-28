@@ -11,12 +11,12 @@ public class User {
     private String password;
     private String avator;
     private String token;
-    private char gender;
+    private String gender;
 
     public User() {
     }
 
-    public User(String userId, String userName, String phone, String password, String avator, String token, char gender) {
+    public User(String userId, String userName, String phone, String password, String avator, String token, String gender) {
         this.userId = userId;
         this.userName = userName;
         this.phone = phone;
@@ -74,11 +74,11 @@ public class User {
         this.token = token;
     }
 
-    public char getGender() {
+    public String getGender() {
         return gender;
     }
 
-    public void setGender(char gender) {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 
