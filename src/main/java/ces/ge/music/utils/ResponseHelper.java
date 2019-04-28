@@ -1,36 +1,58 @@
 package ces.ge.music.utils;
 
-import java.util.HashMap;
-import java.util.Map;
+public class ResponseHelper<T> {
 
-public class ResponseHelper {
+    private String message;
+    private int code;
+    private T data;
 
-
-    /**
-     * @param msg 消息
-     * @return
-     * @author CoolEnoughSmile
-     * @function 生成请求成功的基础map对象
-     */
-    public static Map<String, Object> success(String msg) {
-        Map<String, Object> map = new HashMap<>();
-        map.put("code", 1);
-        map.put("msg", msg);
-        return map;
+    public ResponseHelper() {
     }
 
-    /**
-     * @param msg 消息
-     * @return
-     * @author CoolEnoughSmile
-     * @function 生成请求失败的基础map对象
-     */
-    public static Map<String, Object> fail(String msg) {
-        Map<String, Object> map = new HashMap<>();
-        map.put("code", 0);
-        map.put("msg", msg);
-        return map;
+    public String getMessage() {
+        return message;
     }
 
+    public ResponseHelper<T> setMessage(String message) {
+        this.message = message;
+        return this;
+    }
+
+    public int getCode() {
+        return code;
+    }
+
+    public  ResponseHelper<T> setCode(int code) {
+        this.code = code;
+        return this;
+    }
+
+    public T getData() {
+        return data;
+    }
+
+    public  ResponseHelper<T> setData(T data) {
+        this.data = data;
+        return this;
+    }
+
+    @Override
+    public String toString() {
+        return "ResponseHelper{" +
+                "message='" + message + '\'' +
+                ", code=" + code +
+                ", data=" + data +
+                '}';
+    }
+
+    public ResponseHelper success(){
+        code = 1;
+        return this;
+    }
+
+    public ResponseHelper fail(){
+        code = 0;
+        return this;
+    }
 
 }

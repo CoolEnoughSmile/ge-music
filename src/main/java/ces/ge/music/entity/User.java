@@ -1,12 +1,13 @@
 package ces.ge.music.entity;
 
-import java.sql.Timestamp;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class User {
 
     private String userId;
     private String userName;
     private String phone;
+    @JsonIgnore
     private String password;
     private String avator;
     private String token;

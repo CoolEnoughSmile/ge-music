@@ -23,16 +23,15 @@ public class UserService {
      * @param password
      * @return
      */
-    public Map<String,Object> loginWithPhoneAndPassword(String phone,String password){
+    public  ResponseHelper<User> loginWithPhoneAndPassword(String phone,String password){
         User user = userMapper.queryUserByPhoneAndPassword(phone,password);
-        Map<String,Object> map;
+        ResponseHelper<User> responseHelper = new ResponseHelper<>();
         if (user != null) {
-            map = ResponseHelper.success("登录成功");
-            map.put("user",user);
+            responseHelper.success().setMessage("登录成功").setData(user);
         }else {
-            map = ResponseHelper.fail("用户名或密码错误");
+            responseHelper.success().setMessage("用户名或密码错误");
         }
-        return map;
+        return responseHelper;
     }
 
     /**
@@ -40,16 +39,15 @@ public class UserService {
      * @param phone
      * @return
      */
-    public Map<String,Object> loginWithVCode(String phone){
+    public ResponseHelper<User> loginWithVCode(String phone){
         User user = userMapper.queryUserByPhone(phone);
-        Map<String,Object> map;
+        ResponseHelper<User> responseHelper = new ResponseHelper<>();
         if (user !=null) {
-            map = ResponseHelper.success("登录成功");
-            map.put("user",user);
+            responseHelper.success().setMessage("登录成功").setData(user);
         }else {
-            map = ResponseHelper.fail("该用户未注册");
+            responseHelper.success().setMessage("用户名或密码错误");
         }
-        return map;
+        return responseHelper;
     }
 
     /**
@@ -58,15 +56,15 @@ public class UserService {
      * @param password
      * @return
      */
-    public Map<String,Object> resetPassword(String phone,String password){
+    public ResponseHelper<User> resetPassword(String phone,String password){
         int result = userMapper.updatePasswordByPhone(phone,password);
-        Map<String,Object> map;
+        ResponseHelper<User> responseHelper = new ResponseHelper<>();
         if (result > 0){
-            map = ResponseHelper.success("密码修改成功");
+            responseHelper.success().setMessage("密码修改成功");
         }else {
-            map = ResponseHelper.fail("密码修改失败");
+            responseHelper.success().setMessage("密码修改失败");
         }
-        return map;
+        return responseHelper;
     }
 
     /**
@@ -75,21 +73,21 @@ public class UserService {
      * @param password
      * @return
      */
-    public Map<String,Object> register(String phone,String password){
+    public ResponseHelper<User> register(String phone,String password){
         User user = userMapper.queryByPhone(phone);
-        Map<String, Object> map;
+        ResponseHelper<User> responseHelper = new ResponseHelper<>();
         if (user == null) {
             String userId = UUID.randomUUID().toString();
             int result = userMapper.addNewUser(phone, password,userId);
             if (result > 0) {
-                map = ResponseHelper.success("注册成功");
+                responseHelper.success().setMessage("注册成功");
             } else {
-                map = ResponseHelper.fail("注册失败");
+                responseHelper.fail().setMessage("注册失败");
             }
         }else {
-            map = ResponseHelper.fail("用户已存在");
+            responseHelper.fail().setMessage("用户已存在");
         }
-        return map;
+        return responseHelper;
     }
 
 }
