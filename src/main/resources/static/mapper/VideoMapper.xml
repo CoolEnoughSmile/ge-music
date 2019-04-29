@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="ces.ge.music.mapper.VideoMapper" >
+
+    <select id="queryVideoList" resultMap="videoLst">
+        SELECT * FROM video limit #{from},#{to}
+    </select>
+
+    <resultMap id="videoLst" type="ces.ge.music.entity.Video">
+        <id column="url" property="url" jdbcType="VARCHAR"/>
+        <result column="poster" property="poster" jdbcType="VARCHAR" />
+        <result column="play_count" property="playCount" jdbcType="VARCHAR" />
+        <result column="singer" property="singer" jdbcType="VARCHAR" />
+        <result column="video_name" property="videoName" jdbcType="VARCHAR" />
+    </resultMap>
+</mapper>

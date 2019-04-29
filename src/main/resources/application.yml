@@ -16,7 +16,6 @@
     configuration:
      map-underscore-to-camel-case: true
 
-
   logging:
     level:
      ces.ge.music.mapper: debug
