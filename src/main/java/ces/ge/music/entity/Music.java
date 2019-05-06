@@ -8,17 +8,19 @@ public class Music {
     private String playCount;
     private String singer;
     private String album;
+    private String lrc;
 
     public Music() {
     }
 
-    public Music(String musicName, String poster, String url, String playCount, String singer, String album) {
+    public Music(String musicName, String poster, String url, String playCount, String singer, String album, String lrc) {
         this.musicName = musicName;
         this.poster = poster;
         this.url = url;
         this.playCount = playCount;
         this.singer = singer;
         this.album = album;
+        this.lrc = lrc;
     }
 
     public String getMusicName() {
@@ -69,6 +71,14 @@ public class Music {
         this.album = album;
     }
 
+    public String getLrc() {
+        return lrc;
+    }
+
+    public void setLrc(String lrc) {
+        this.lrc = lrc;
+    }
+
     @Override
     public String toString() {
         return "Music{" +
@@ -78,6 +88,7 @@ public class Music {
                 ", playCount='" + playCount + '\'' +
                 ", singer='" + singer + '\'' +
                 ", album='" + album + '\'' +
+                ", lrc='" + lrc + '\'' +
                 '}';
     }
 }
