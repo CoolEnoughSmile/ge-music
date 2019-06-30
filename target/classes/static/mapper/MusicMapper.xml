@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="ces.ge.music.mapper.MusicMapper" >
+
+    <select id="queryMusicList" resultMap="musicLst">
+        SELECT * FROM music limit #{from},#{to}
+    </select>
+
+    <resultMap id="musicLst" type="ces.ge.music.entity.Music">
+        <id column="url" property="url" jdbcType="VARCHAR"/>
+        <result column="poster" property="poster" jdbcType="VARCHAR" />
+        <result column="play_count" property="playCount" jdbcType="VARCHAR" />
+        <result column="singer" property="singer" jdbcType="VARCHAR" />
+        <result column="album" property="album" jdbcType="VARCHAR" />
+        <result column="music_name" property="musicName" jdbcType="VARCHAR" />
+    </resultMap>
+</mapper>

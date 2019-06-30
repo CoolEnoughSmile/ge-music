@@ -1,0 +1,15 @@
+ces\ge\music\config\SwaggerConfig.class
+ces\ge\music\entity\User.class
+ces\ge\music\GeMusicApplication.class
+ces\ge\music\mapper\MusicMapper.class
+ces\ge\music\mapper\VideoMapper.class
+ces\ge\music\utils\ResponseHelper.class
+ces\ge\music\controller\MusicController.class
+ces\ge\music\mapper\UserMapper.class
+ces\ge\music\entity\Video.class
+ces\ge\music\controller\VideoController.class
+ces\ge\music\service\UserService.class
+ces\ge\music\controller\UserController.class
+ces\ge\music\service\VideoService.class
+ces\ge\music\entity\Music.class
+ces\ge\music\service\MusicService.class
